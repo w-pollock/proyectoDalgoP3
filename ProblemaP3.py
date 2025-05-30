@@ -1,3 +1,6 @@
+"""Autores: 1. Nicolas Hernandez - 202322148
+            2. William Pollock - 202221321
+"""
 def calc_overlap(a, b):
     max_ov = 0
     for i in range(1, min(len(a), len(b)) + 1):
