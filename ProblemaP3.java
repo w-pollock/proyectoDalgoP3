@@ -13,10 +13,10 @@ public class ProblemaP3 {
     private static String greedySuperstring(List<String> words, int k) {
         /*
          * Mientras haya ≥2 cadenas:
-         *   1) Encuentre par (i,j) con solapamiento máximo.
-         *   2) En empate → fusión lexicográficamente menor.
-         *   3) Reemplace i,j por la fusión.
-         * Termina con la única cadena.
+         *   1) Encuentre par (i,j) con solapamiento máximo
+         *   2) En empate → fusión lexicográficamente menor
+         *   3) Reemplace i,j por la fusión
+         * Termina con la única cadena
          */
         while (words.size() > 1) {
             int bestOv = -1, bestI = 0, bestJ = 1;
